@@ -1,5 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    background-color:#666;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
 header {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -13,4 +33,24 @@ main {
 footer {
     font-size: 0.9rem;
     color: #666
+}
+
+h1 {
+    color:burlywood;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+ul > li {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul ul li {
+    font-size: 1rem;
+    font-weight: normal;
 }
