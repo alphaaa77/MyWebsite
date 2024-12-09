@@ -1,0 +1,16 @@
+header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #666
+}
