@@ -1,7 +1,9 @@
+
 body{
     font-family: Arial, sans-serif;
     background-color:aquamarine;
     margin: 0;
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +21,14 @@ body{
     text-align: center;
 }
 header {
+    font-family:"Oswald", sans-serif;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 main {
+    font-family:'Delius', cursive;
     font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.6;
@@ -53,4 +57,48 @@ ul > li {
 ul ul li {
     font-size: 1rem;
     font-weight: normal;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav .logo {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
